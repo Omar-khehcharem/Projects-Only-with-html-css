@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    height: 9vw;
+ 
+}
+
+
+.logo{
+   
+    margin: 1em;    
+   
+    h1{
+        display: flex;
+        justify-content: end;
+        padding-top: 0px;
+        
+    }
+    p{
+        
+        font-size: 18px;
+    }
+}
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0em 2em;
+}
+li{
+    padding: 0 1em;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+li::after{
+content: "";
+background-color: brown;
+display: block;
+height: 4px;
+width: 0px;
+transition: all 1s;
+}
+
+nav>li:hover::after{
+width: 100%;
+background-color: brown;
+cursor: pointer;
+}
+nav>li:hover{
+   color: brown;
+    cursor: pointer;
+ }
+
+
+.boy{
+    display: block;
+    background-color: antiquewhite;
+    border :3px dashed rgba(102, 96, 9, 0.701);
+    padding-bottom: 2em;
+
+  
+}
+.hero{
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+
+   
+
+}
+
+.hero__Fist{
+    background-image: url(./images/sanfrancisco.jpg);
+    
+    height:50vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   align-items: end;
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+
+
+    
+}
+button:hover{
+    cursor: pointer;
+
+}
+.bar_bot{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   background-color: rgba(0, 0, 0, 0.641);
+   padding: 8px;
+    color: white;
+    align-items: center;
+
+}
+#br2{
+    background-image: linear-gradient(rgb(209, 134, 134),rgb(134, 5, 5));
+    padding: 0.5em 2em;
+    border-radius: 0.5em;
+    color: white;
+    align-items: center;
+}
+.main p, h1{
+    padding-top: 1em;
+}
+.main{
+display: flex;
+gap: 2em;
+.main-left{
+    display: block;
+    width: 75%;
+  
+
+}
+.main-left>p{
+text-align: justify;
+}
+
+.main-right{
+    margin-top: 2rem;
+    display: block;
+    width: 27%;
+    background-color: gray;
+    border-radius: 0.8rem;
+    padding: 0.1em;
+    color: white;
+
+
+}
+
+}
+
+.center{
+    display: block;
+   justify-content: center;
+ 
+}
+
+.img__center{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.center>h1{
+ text-align: center;
+   
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+
+}
+.socialmedia>img{
+    padding-left: 1em;
+}
+.main-right>p{
+    padding: 0.5em;
+}
+#bull{
+    position:relative;
+    top: 30%;
+    right: 14px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+.tweet>p{
+    padding-top: 1em;
+}
+
+
+.images>img{
+    margin-top: 1em;
+    margin-right: 0.3em;
+    margin-bottom: 1em;
+    border: 2px solid black;
+}
+
+.amies>ul{
+list-style: none;
+color: brown;
+margin-bottom: 1em;
+}
+
+#ul1{
+    float: left;
+}
+#ul2{
+    float: right;
+}
+.amies>h1{
+    display: flex;
+    justify-content: center;
+}
+.sep>img{
+    position: relative;
+    left: 45%;
+    top:2em;
+}
+.sep{
+   position: relative;
+   top: 2em;
+    box-shadow: 2px 5px 3px rgb(142, 129, 129);
+}
